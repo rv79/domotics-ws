@@ -1,0 +1,11 @@
+# Web service configuration
+server:
+  port: 9100
+
+logging:
+  level:
+    org.springframework.web: INFO
+
+# Node configuration
+app:
+  wsInit: http://localhost:9101/init
