@@ -1,5 +1,8 @@
 package com.domotics;
 
+
+//new App
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
