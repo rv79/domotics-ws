@@ -26,6 +26,7 @@ public class InitController {
         this.config = config;
     }
 
+
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping("/init")
     public Item[] Controller() {
