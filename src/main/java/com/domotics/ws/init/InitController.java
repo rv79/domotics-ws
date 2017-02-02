@@ -3,6 +3,7 @@ package com.domotics.ws.init;
 import com.domotics.Config;
 import com.domotics.objects.Item;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -25,6 +26,8 @@ public class InitController {
         this.config = config;
     }
 
+
+    @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping("/init")
     public Item[] Controller() {
         logger.info("get /init request");
