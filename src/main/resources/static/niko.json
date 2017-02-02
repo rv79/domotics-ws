@@ -1,1 +1,702 @@
-[{"uid":"NHC-17","itemID":17,"itemName":"Ecl. Crepusculaire","locationID":2,"locationName":"Terrasse","typeID":1,"value":0},{"uid":"NHC-1","itemID":1,"itemName":"Ecl. Terrasse","locationID":2,"locationName":"Terrasse","typeID":1,"value":0},{"uid":"NHC-20","itemID":20,"itemName":"store porte","locationID":1,"locationName":"Sejour","typeID":4,"value":100},{"uid":"NHC-21","itemID":21,"itemName":"store baie","locationID":1,"locationName":"Sejour","typeID":4,"value":1},{"uid":"NHC-9","itemID":9,"itemName":"ecl_rail23","locationID":1,"locationName":"Sejour","typeID":1,"value":0},{"uid":"NHC-11","itemID":11,"itemName":"ecl_rails23_p3","locationID":1,"locationName":"Sejour","typeID":1,"value":0},{"uid":"NHC-16","itemID":16,"itemName":"ecl_rail1_p3","locationID":1,"locationName":"Sejour","typeID":1,"value":0},{"uid":"NHC-23","itemID":23,"itemName":"Eclairage Variateur Sejour","locationID":1,"locationName":"Sejour","typeID":2,"value":0},{"uid":"NHC-24","itemID":24,"itemName":"Ecl. Facade","locationID":2,"locationName":"Terrasse","typeID":1,"value":0},{"uid":"NHC-25","itemID":25,"itemName":"Ecl. Escalier","locationID":2,"locationName":"Terrasse","typeID":1,"value":0},{"uid":"NHC-26","itemID":26,"itemName":"Ecl. Palissade","locationID":2,"locationName":"Terrasse","typeID":1,"value":0},{"uid":"NHC-30","itemID":30,"itemName":"Prise Baie","locationID":1,"locationName":"Sejour","typeID":1,"value":0},{"uid":"NHC-31","itemID":31,"itemName":"Prise Buffet","locationID":1,"locationName":"Sejour","typeID":1,"value":100},{"uid":"NHC-37","itemID":37,"itemName":"Eclairage Variateur Table","locationID":1,"locationName":"Sejour","typeID":2,"value":0},{"uid":"NHC-38","itemID":38,"itemName":"temp_ext","locationID":2,"locationName":"Terrasse","typeID":1,"value":0}]
+[
+  {
+    "provider": "NHC",
+    "uid": "NHC-64",
+    "itemID": 64,
+    "itemName": "Spot hall rez",
+    "locationID": 2,
+    "locationName": "Hall",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-65",
+    "itemID": 65,
+    "itemName": "Lampe buanderie",
+    "locationID": 2,
+    "locationName": "Hall",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-66",
+    "itemID": 66,
+    "itemName": "Spot WC rez",
+    "locationID": 2,
+    "locationName": "Hall",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-67",
+    "itemID": 67,
+    "itemName": "Spot mur",
+    "locationID": 3,
+    "locationName": "Bureau",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-68",
+    "itemID": 68,
+    "itemName": "Spot bureau",
+    "locationID": 3,
+    "locationName": "Bureau",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-71",
+    "itemID": 71,
+    "itemName": "Lampe gauche",
+    "locationID": 3,
+    "locationName": "Bureau",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-72",
+    "itemID": 72,
+    "itemName": "Lampe droite",
+    "locationID": 3,
+    "locationName": "Bureau",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-73",
+    "itemID": 73,
+    "itemName": "Spot cuisine",
+    "locationID": 4,
+    "locationName": "Cuisine",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-74",
+    "itemID": 74,
+    "itemName": "Tous les spots",
+    "locationID": 5,
+    "locationName": "Living",
+    "typeID": 0,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-75",
+    "itemID": 75,
+    "itemName": "Spot ilot",
+    "locationID": 4,
+    "locationName": "Cuisine",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-79",
+    "itemID": 79,
+    "itemName": "Spot salon graffiti",
+    "locationID": 5,
+    "locationName": "Living",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-80",
+    "itemID": 80,
+    "itemName": "Spot living enceintes",
+    "locationID": 5,
+    "locationName": "Living",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-83",
+    "itemID": 83,
+    "itemName": "Spot stores",
+    "locationID": 5,
+    "locationName": "Living",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-84",
+    "itemID": 84,
+    "itemName": "lampe chambre Alicia",
+    "locationID": 8,
+    "locationName": "Chambres",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-85",
+    "itemID": 85,
+    "itemName": "lampe chambre ami",
+    "locationID": 8,
+    "locationName": "Chambres",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-86",
+    "itemID": 86,
+    "itemName": "Spot WC etage",
+    "locationID": 2,
+    "locationName": "Hall",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-87",
+    "itemID": 87,
+    "itemName": "lampe chambre",
+    "locationID": 6,
+    "locationName": "Chambre parents",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-88",
+    "itemID": 88,
+    "itemName": "Spot douche",
+    "locationID": 6,
+    "locationName": "Chambre parents",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-91",
+    "itemID": 91,
+    "itemName": "Spot salle de bain",
+    "locationID": 7,
+    "locationName": "Salle de Bain",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-92",
+    "itemID": 92,
+    "itemName": "Porte Garage",
+    "locationID": 1,
+    "locationName": "Sous-sol",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-94",
+    "itemID": 94,
+    "itemName": "Lampe cave a vin",
+    "locationID": 1,
+    "locationName": "Sous-sol",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-236",
+    "itemID": 236,
+    "itemName": "Poteaux terrasse",
+    "locationID": 9,
+    "locationName": "Exterieur",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-276",
+    "itemID": 276,
+    "itemName": "Spot sol terrasse",
+    "locationID": 9,
+    "locationName": "Exterieur",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-386",
+    "itemID": 386,
+    "itemName": "LED escalier exterieur",
+    "locationID": 9,
+    "locationName": "Exterieur",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-387",
+    "itemID": 387,
+    "itemName": "Spot sol exterieur garage",
+    "locationID": 9,
+    "locationName": "Exterieur",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-388",
+    "itemID": 388,
+    "itemName": "Prise terrasse",
+    "locationID": 9,
+    "locationName": "Exterieur",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-442",
+    "itemID": 442,
+    "itemName": "Spot exterieur entree",
+    "locationID": 9,
+    "locationName": "Exterieur",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-428",
+    "itemID": 428,
+    "itemName": "Living suspension",
+    "locationID": 5,
+    "locationName": "Living",
+    "typeID": 2,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-429",
+    "itemID": 429,
+    "itemName": "Lampe chevet herve",
+    "locationID": 6,
+    "locationName": "Chambre parents",
+    "typeID": 2,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-430",
+    "itemID": 430,
+    "itemName": "Lampe chevet kathi",
+    "locationID": 6,
+    "locationName": "Chambre parents",
+    "typeID": 2,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-431",
+    "itemID": 431,
+    "itemName": "Applique salle de bain",
+    "locationID": 7,
+    "locationName": "Salle de Bain",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-475",
+    "itemID": 475,
+    "itemName": "Living lampe pieds",
+    "locationID": 5,
+    "locationName": "Living",
+    "typeID": 2,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-506",
+    "itemID": 506,
+    "itemName": "Store gauche",
+    "locationID": 5,
+    "locationName": "Living",
+    "typeID": 5,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-507",
+    "itemID": 507,
+    "itemName": "Store droit",
+    "locationID": 5,
+    "locationName": "Living",
+    "typeID": 5,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-508",
+    "itemID": 508,
+    "itemName": "Store droit",
+    "locationID": 3,
+    "locationName": "Bureau",
+    "typeID": 5,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-509",
+    "itemID": 509,
+    "itemName": "Store gauche",
+    "locationID": 3,
+    "locationName": "Bureau",
+    "typeID": 5,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-664",
+    "itemID": 664,
+    "itemName": "Lampe garage+cave",
+    "locationID": 1,
+    "locationName": "Sous-sol",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-589",
+    "itemID": 589,
+    "itemName": "Away",
+    "locationID": 2,
+    "locationName": "Hall",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-590",
+    "itemID": 590,
+    "itemName": "Night",
+    "locationID": 2,
+    "locationName": "Hall",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-655",
+    "itemID": 655,
+    "itemName": "Circulateur ECS",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-656",
+    "itemID": 656,
+    "itemName": "Prises TV",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-679",
+    "itemID": 679,
+    "itemName": "PAC chauffage",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-687",
+    "itemID": 687,
+    "itemName": "Radiateur douche",
+    "locationID": 6,
+    "locationName": "Chambre parents",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-688",
+    "itemID": 688,
+    "itemName": "Radiateur salle de bain",
+    "locationID": 7,
+    "locationName": "Salle de Bain",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-815",
+    "itemID": 815,
+    "itemName": "Thermostat OFF",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-816",
+    "itemID": 816,
+    "itemName": "Thermostat ECO",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-858",
+    "itemID": 858,
+    "itemName": "spot centre",
+    "locationID": 3,
+    "locationName": "Bureau",
+    "typeID": 2,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-886",
+    "itemID": 886,
+    "itemName": "VMC auto",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 2,
+    "value": 20.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-908",
+    "itemID": 908,
+    "itemName": "VMC",
+    "locationID": 4,
+    "locationName": "Cuisine",
+    "typeID": 2,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-916",
+    "itemID": 916,
+    "itemName": "VMC Salles de bain",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 2,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-973",
+    "itemID": 973,
+    "itemName": "Circulateur ECS Home",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-975",
+    "itemID": 975,
+    "itemName": "Prises commandées",
+    "locationID": 5,
+    "locationName": "Living",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-990",
+    "itemID": 990,
+    "itemName": "Radiateur SDB auto 21",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1013",
+    "itemID": 1013,
+    "itemName": "Store bureau manuel",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1084",
+    "itemID": 1084,
+    "itemName": "Radiateur SDD auto timer",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1085",
+    "itemID": 1085,
+    "itemName": "Circulateur ECS lampe",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1093",
+    "itemID": 1093,
+    "itemName": "VMC Normal",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 0,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1094",
+    "itemID": 1094,
+    "itemName": "VMC Low",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1095",
+    "itemID": 1095,
+    "itemName": "VMC High",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1149",
+    "itemID": 1149,
+    "itemName": "Store bureau",
+    "locationID": 3,
+    "locationName": "Bureau",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1150",
+    "itemID": 1150,
+    "itemName": "Radiateur SDB auto timer",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1151",
+    "itemID": 1151,
+    "itemName": "Radiateur SDD auto 21",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1160",
+    "itemID": 1160,
+    "itemName": "VMC bypass",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1182",
+    "itemID": 1182,
+    "itemName": "Cooling",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1231",
+    "itemID": 1231,
+    "itemName": "Spot salon",
+    "locationID": 5,
+    "locationName": "Living",
+    "typeID": 2,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1232",
+    "itemID": 1232,
+    "itemName": "Spot salon fenetre",
+    "locationID": 5,
+    "locationName": "Living",
+    "typeID": 2,
+    "value": 0.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1309",
+    "itemID": 1309,
+    "itemName": "Thermostat ON",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1379",
+    "itemID": 1379,
+    "itemName": "Cooling auto",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1394",
+    "itemID": 1394,
+    "itemName": "Lampes Rez",
+    "locationID": 2,
+    "locationName": "Hall",
+    "typeID": 1,
+    "value": 100.0
+  },
+  {
+    "provider": "NHC",
+    "uid": "NHC-1409",
+    "itemID": 1409,
+    "itemName": "PAC ECS Force",
+    "locationID": 10,
+    "locationName": "Technique",
+    "typeID": 0,
+    "value": 0.0
+  }
+]
