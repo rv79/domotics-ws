@@ -1,4 +1,4 @@
-package com.domotics.ws.event;
+package com.domotics.controllers;
 
 import com.domotics.Config;
 import org.apache.log4j.Logger;

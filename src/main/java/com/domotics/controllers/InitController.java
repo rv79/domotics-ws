@@ -1,4 +1,4 @@
-package com.domotics.ws.init;
+package com.domotics.controllers;
 
 import com.domotics.Config;
 import com.domotics.objects.Item;
