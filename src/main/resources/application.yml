@@ -4,8 +4,8 @@ server:
 
 logging:
   level:
-    org.springframework.web: INFO
+    org.springframework.web: DEBUG
 
 # Node configuration
 app:
-  wsInit: http://localhost:9101/init
+  wsInit: http://localhost:9100/mock
