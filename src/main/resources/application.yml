@@ -8,4 +8,5 @@ logging:
 
 # Node configuration
 app:
-  wsInit: http://localhost:9100/mock
+  wsInit: http://localhost:9101/init
+  wsCmd:  http://localhost:9101/cmd

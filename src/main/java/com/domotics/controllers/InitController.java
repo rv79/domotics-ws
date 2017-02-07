@@ -2,6 +2,7 @@ package com.domotics.controllers;
 
 import com.domotics.Config;
 import com.domotics.objects.Item;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +18,7 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class InitController {
-    //final static Logger logger = Logger.getLogger(InitController.class);
+    final static Logger logger = Logger.getLogger(InitController.class);
 
     private Config config;
 
@@ -30,7 +31,7 @@ public class InitController {
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping("/init")
     public Item[] Controller() {
-        //logger.info("get /init request");
+        logger.info("get /init request");
         //logger.info(config.getWsInit());
 
         try {
@@ -38,7 +39,7 @@ public class InitController {
             Item[] items = restTemplate.getForObject(config.getWsInit(), Item[].class);
             return items;
         } catch (Exception e) {
-            //logger.error(e.toString());
+            logger.error(e.toString());
             return null;
         }
     }

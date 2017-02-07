@@ -41,7 +41,7 @@ public class EventController {
     @RequestMapping(value = "/event", method = RequestMethod.POST)
     @ResponseBody
     public ResponseEntity<?> Controller(@RequestBody Item item) {
-        logger.info("EventController /event");
+        logger.info("EventController /event:"+item.getUid()+":"+item.getValue());
         // Call event service notification
         // <add>Pass service parameters to the notification service</add>
         eventService.notify(new Event(item));
